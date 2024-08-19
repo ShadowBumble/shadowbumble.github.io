@@ -19,7 +19,7 @@ title: Security Ramblings  # the main title
 tagline: Research, Ramblings and other confusing topics # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Research, Ramblings and other confusing technical topics.
+  Research, Architecture, Ramblings and other confusing technical topics.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
