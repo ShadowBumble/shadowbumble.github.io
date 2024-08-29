@@ -16,7 +16,7 @@ timezone: Europe/Amsterdam
 
 title: Security Ramblings  # the main title
 
-tagline: Research, Ramblings and other confusing topics # it will display as the sub-title
+tagline: Research, Architecture, Ramblings and other confusing topics # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Research, Architecture, Ramblings and other confusing technical topics.
