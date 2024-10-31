@@ -8,8 +8,6 @@ tags: [reviews]     # TAG names should always be lowercase
 description: My review of the current state of OffSec's PEN300 Course and Exam.
 ---
 
-# A 2024 Review of OffSec's PEN-300 Advanced Evasion Techniques and Breaching Defenses
-
  <img src="/assets/img/osep.logo.svg" alt="OSEP Certification Badge" width="260" height="300" />
 
 ## Introduction
