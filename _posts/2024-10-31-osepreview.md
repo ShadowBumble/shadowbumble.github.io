@@ -5,7 +5,7 @@ categories: [Ramblings]
 tags: [reviews]     # TAG names should always be lowercase
 
 
-description: My review of the current state of OffSec's PEN300 Course and Exam.
+description: A review of the current state of OffSec's PEN300 Course and Exam.
 ---
 
  <img src="/assets/img/osep.logo.svg" alt="OSEP Certification Badge" width="260" height="300" />
