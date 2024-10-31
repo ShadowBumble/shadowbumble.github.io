@@ -26,7 +26,7 @@ Last year (2023) I attempted and obtained my OSCP certificate, for me it was the
 
 Before we start with the review of the course let's address a concern that is on the mind of a lot of aspiring students. 
 
-Aspiring students often read questions on various forums or discord servers regarding the validity or age of the course materials. While it is true that no major updates have been done to OSEP; that are comparable to the ["Big 2023 OSCP Overhaul"](https://www.offsec.com/blog/pen-200-2023/) or the more recent [introduction of OSCP+](https://www.offsec.com/blog/everything-you-need-to-know-about-the-oscp-plus/), there are smaller iterative updates to the individual learning modules within the course as recent as August 2024. 
+Aspiring students often read questions on various forums or discord servers regarding the validity or age of the course materials. While it is true that no major updates have been done to OSEP; that are comparable to the ["Big 2023 OSCP Overhaul"](https://www.offsec.com/blog/pen-200-2023/) or the more recent [introduction of OSCP+](https://www.offsec.com/blog/everything-you-need-to-know-about-the-oscp-plus/), there are smaller iterative updates to the individual learning modules within the course and even adding new learning modules as recent as a Few days ago (October 2024). 
 
 Maybe it's also good to address that the _Advanced Evasion Techniques and Breaching Defenses_ is not a copy paste this command or this piece of code course, that you might expect from previous courses. Often you see courses that are learning you a specific technique and a specific way how to perform that specific technique, but what if you are in a situation where that specific way of executing is not possible but the technique itself could still be of value ? That is the space where I think the _Advanced Evasion Techniques and Breaching Defenses_ fits the best. The course will not introduce you to the latest exploits and how to execute them or how to do a modern EDR evasions instead it will teach you the concepts for advanced evasion and bypass techniques and how to execute these technique's successfully in a hardened environment. 
 
@@ -37,16 +37,17 @@ This biggest learning this course will provide you is *Adaptability*, the adapta
 |||
 |--|--|
 |Operating System and Programming Theory|Client Side Code Execution With Office|
-|Client Side Code Execution With Windows Script Host|*Reflective Powershell*|
-|Process Injection and Migration|Introduction to Antivirus Evasion|
-|Advanced Antivirus Evasion|Application Whitelisting|
-|Bypassing Network Filters|Linux Post-Exploitation|
-|Kiosk Breakouts|Windows Credentials|
-|Windows Lateral Movement|Linux Lateral Movement|
-|Microsoft SQL Attacks|Active Directory Exploitation|
-|*Attacking Active Directory*|Combining the Pieces|
+|**Phishing with Microsoft Office** (Added October 2024)|Client Side Code Execution With Windows Script Host|
+|**Reflective Powershell** (Added October 2024)|Process Injection and Migration|
+|Introduction to Antivirus Evasion|Advanced Antivirus Evasion|
+|Application Whitelisting| Bypassing Network Filters|
+|Linux Post-Exploitation|Kiosk Breakouts|
+|Windows Credentials|Windows Lateral Movement|
+|Linux Lateral Movement|Microsoft SQL Attacks|
+|Active Directory Exploitation|*Attacking Active Directory*|
+|Combining the Pieces|
 
-The structure of these modules is different and might make some of the new fresh out of OSCP students frown a bit. Only the learning module "Attacking Active Directory" has the same style the OSCP learning modules. This module contains questions you need to answer by submitting a flag or a specific answer that you get while doing the exercise providing you the same experience as the Learning modules in OSCP. All the other modules are also having "Exercises" and "Extra Mile" objectives with the difference that you do not need to verify your answers or actions, which also unfortunately results in a lot of students skipping those. I personally would highly recommend doing the exercises of each module including the extra mile ones, because doing this will leave you at the end of the course with various Loaders and boilerplates to further work on and prepare for the exam.
+The structure of these modules is different and might make some of the new fresh out of OSCP students frown a bit. Only the latested added learning module like "Phishing with Microsoft Office", "Reflective Powershell" & "Attacking Active Directory" has the same style the OSCP learning modules. This module contains questions you need to answer by submitting a flag or a specific answer that you get while doing the exercise providing you the same experience as the Learning modules in OSCP. All the other modules are also having "Exercises" and "Extra Mile" objectives with the difference that you do not need to verify your answers or actions, which also unfortunately results in a lot of students skipping those. I personally would highly recommend doing the exercises of each module including the extra mile ones, because doing this will leave you at the end of the course with various Loaders and boilerplates to further work on and prepare for the exam.
 
 The course is divided in two parts, the first part which basically focusses on the development of exploits and evasion techniques by leveraging VBA, JS, C# and PowerShell and the second part which focusses on the attacking different environments. Especially the first part was pretty rough for me since I never picked up a programming or scripting language, the course did a fine job guiding me through this part and providing the information needed to understand the concepts.
 
