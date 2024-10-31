@@ -70,7 +70,7 @@ I was rigorously following the time table that was proven to be so successful du
 
 ## Lessons Learned 
 
-So maybe to conclude this post a small overview of what I think are the most valueable during the course and exam.
+So maybe to conclude this post a small overview of what I think are the most valueable lessons for during the course and exam.
 
 - Do the course challenges, not only the regular ones but also the extra mile ones. Especially the extra mile ones are going to give you a lot of insights and learnings.
 
