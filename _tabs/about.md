@@ -4,9 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<p align="center">
- <img src="/assets/img/about.webp" alt="Wink to my handle" width="500" height="500" />
-</p>
+<img src="/assets/img/about.webp" alt="Wink to my handle" width="500" height="500" />
+
 
 Hello! Thanks for clicking the about page, I’m a seasoned IT and Cyber Security professional with over 20 years of experience in technology, including a decade dedicated exclusively to Cyber Security. 
 
