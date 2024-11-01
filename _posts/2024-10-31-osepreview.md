@@ -16,7 +16,7 @@ description: A review of the current state of OffSec's PEN300 Course and Exam.
 
 That's how the introduction goes for the _Advanced Evasion Techniques and Breaching Defenses_ course, which is the successor to the famous _Penetration Testing with Kali Linux_ or maybe better known as the PEN200 OSCP course.
 
-Last year (2023) I attempted and obtained my OSCP certificate, for me it was the logical next step to look at the advanced level certification OSEP. Now after finishing the course and obtaining my OSEP credentials I can look back and let my mind wander a bit on how and what did I think of the course. A good thing to keep in mind is that in between OSCP and OSEP, I have taken Rasta's [Red Team Operator](https://training.zeropointsecurity.co.uk/courses/red-team-ops) Course which also provided me with some interesting perspectives that I took with me in this course. This influencent only the decision to take the course with SliverC2 instead of Metasploit, since this course it not specifically aimed at Red Team Operators but aimed at Experienced Pentetration Testers. I do think both the Red Team Operator and the Experienced Penetration Tester will get lots of benefit from _Advanced Evasion Techniques and Breaching Defenses_ course.
+Last year (2023) I attempted and obtained my OSCP certificate, for me it was the logical next step to look at the advanced level certification OSEP. Now after finishing the course and obtaining my OSEP credentials I can look back and let my mind wander a bit on how and what did I think of the course. A good thing to keep in mind is that in between OSCP and OSEP, I have taken Rasta's [Red Team Operator](https://training.zeropointsecurity.co.uk/courses/red-team-ops) Course which also provided me with some interesting perspectives that I took with me in this course. This affected only the decision to take this course with SliverC2 instead of Metasploit. While this course it not specifically aimed at Red Team Operators. I do think both Red Team Operators and the Experienced Penetration Testers will get lots of benefit from the concepts that the _Advanced Evasion Techniques and Breaching Defenses_ course teaches.
 
 ## The Course Materials
 
@@ -70,7 +70,7 @@ I was rigorously following the time table that was proven to be so successful du
 
 ## Lessons Learned 
 
-So maybe to conclude this post a small overview of what I think are the most valueable lessons to take with you start the course and do the exam.
+So maybe to conclude this post a small overview of what I think are the most valueable lessons to take with you starting the course and do the exam.
 
 - Do the course challenges, not only the regular ones but also the extra mile ones. Especially the extra mile ones are going to give you a lot of insights and learnings.
 
