@@ -3,7 +3,6 @@ title: Into The Abyss
 date: 2025-06-13 13:00:00 +0200
 categories: [Research]
 tags: [offdev]     # TAG names should always be lowercase
-image: /assets/img/Abyss/header.png
 
 description: The start of my Journey into the World of Offensive Development and Reverse Engineering 
 ---
