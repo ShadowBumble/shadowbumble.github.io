@@ -1,6 +1,6 @@
 ---
 title: Into The Abyss 
-date: 2025-06-12 20:00:00 +0200
+date: 2025-06-13 12:00:00 +0200
 categories: [Research]
 tags: [offdev]     # TAG names should always be lowercase
 
@@ -28,9 +28,9 @@ So, it’s been quiet for a while on the blog for well … reasons. And those re
 
 I see my blog as a vehicle that primarily helps me understand topics better and learn something new. Writing these topics down helps me tremendously in the learning process—and maybe, just maybe, I can help a few others along the way.<br>
 
-In this specific post, I’ll be talking about how my interest in Offensive Development has been reawakened.<br>
+In this specific post, I’ll be talking about how my interest in Offensive Development has been reawakened. The blog is written in the context on when this all was happening ofcourse the Blog itself was written a few days later.<br>
 
-So to give the context a bit it's Friday night and I'm going through some old blogs looking for new interesting ways to avoid defenses and inspire me so i can twist those technique's a bit. On this specific night my interest peaked by a tactic used in one of the older campaign's from the threat actor BianLian. <br>
+It's Friday night and I'm going through some old blogs looking for new interesting ways to avoid defenses and inspire me so i can twist those technique's a bit. On this specific night my interest peaked by a tactic used in one of the older campaign's from the threat actor BianLian. <br>
 
 ## Tactic & Techniques
 
