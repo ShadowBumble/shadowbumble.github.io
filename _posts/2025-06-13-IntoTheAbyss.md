@@ -1,6 +1,6 @@
 ---
 title: Into The Abyss 
-date: 2025-06-13 13:00:00 +0200
+date: 2025-06-12 20:00:00 +0200
 categories: [Research]
 tags: [offdev]     # TAG names should always be lowercase
 
@@ -279,6 +279,6 @@ At this moment that is just way beyond my current skill level and I decided to s
 
 It’s now early Saturday morning—around 4 AM—and after hours of staring deep into this rabbit hole, this abyss, I find myself a bit frustrated, stuck on the final piece. My brain has basically gone into suspended mode. Despite the sleep deprivation from a long day of work and this project, the journey has been incredibly rewarding. It definitely reignited my passion for Offensive Development and Windows System Internals, reminding me why I love exploring these seemingly obvious techniques and peeking beneath the surface.<br><br>
 
-The takeaway? Sometimes, the real value lies not just in the end result, but in the learning process itself. Trying to transform a simple command-line operation into a custom application to achieve the same goal—while avoiding obvious detections—teaches you a tremendous amount about the system and its inner workings.
+The takeaway? Sometimes, the real value lies not just in the end result, but in the learning process itself. Trying to transform a simple command-line operation into a custom application to achieve the same goal—while avoiding obvious detections—teaches you a tremendous amount about the system and its inner workings.<br><br>
 
-I'm sure this will not be the last Blog about Offensive Development, since my journey has just started.
+I'm sure this will not be the last Blog about Offensive Development, since my journey has just started.<br>
