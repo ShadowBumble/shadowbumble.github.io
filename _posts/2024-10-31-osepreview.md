@@ -3,12 +3,12 @@ title: A 2024 Review of OffSec's PEN-300 Advanced Evasion Techniques and Breachi
 date: 2024-10-31 17:00:00 +0200
 categories: [Ramblings]
 tags: [reviews]     # TAG names should always be lowercase
-
+image: ../assets/img/osep.logo.svg
 
 description: A review of the current state of OffSec's PEN300 Course and Exam.
 ---
 
- <img src="/assets/img/osep.logo.svg" alt="OSEP Certification Badge" width="260" height="300" />
+ <img src="../assets/img/osep.logo.svg" alt="OSEP Certification Badge" width="260" height="300" />
 
 ## Introduction
 
