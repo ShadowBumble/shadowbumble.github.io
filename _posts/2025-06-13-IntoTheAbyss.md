@@ -12,7 +12,7 @@ description: The start of my Journey into the World of Offensive Development and
 <br>
 <center>
 
-_**"And if you gaze long into an abyss, the abyss also gazes into you."**_
+***"And if you gaze long into an abyss, the abyss also gazes into you."***
 <br>Friedrich Nietzsche
 </center>
 
