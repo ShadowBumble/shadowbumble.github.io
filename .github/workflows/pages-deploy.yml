@@ -1,9 +1,8 @@
-name: "Build and Deploy"
+name: "Build & Deploy Blog"
 on:
   push:
     branches:
       - main
-      - master
     paths-ignore:
       - .gitignore
       - README.md
@@ -23,9 +22,10 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  publish:
+    if: "contains(github.event.head_commit.message, 'Publish Blog')"  
   build:
     runs-on: ubuntu-latest
-    if: "! contains(github.event.head_commit.message, 'Publish Blog')"
 
     steps:
       - name: Checkout
