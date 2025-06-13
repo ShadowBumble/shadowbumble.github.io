@@ -6,9 +6,7 @@ tags: [offdev]     # TAG names should always be lowercase
 
 description: The start of my Journey into the World of Offensive Development and Reverse Engineering 
 ---
-<p align="center">
-    <img src="../assets/img/Abyss/header.png" alt="Into the Abyss">
-</p>
+<img src="../assets/img/Abyss/header.png" alt="Into the Abyss">
 
 # Into the Abyss 
 <br>
@@ -49,9 +47,8 @@ The blog didn’t mention it specifically, but the fact that they could install 
 The problem with straightforward techniques is that they are a world-famous rabbit hole into which you can tumble. In this case, that rabbit hole was filled by my sheer interest in developing my skillset in offensive development and avoiding detections. Due to my visual thinking, my mind instantly made a connection to one of my favorite novels/anime, [Made in Abyss](https://en.wikipedia.org/wiki/Made_in_Abyss). Ironically the character in Made in Abyss is also called "Reg". Henceforth, I hear something calling in the distance.<br>
 <br>
 
-<p align="center">
-    <img src="../assets/img/Abyss/MadeInAbyss.jpg" alt="Into the Abyss">
-</p>
+<img src="../assets/img/Abyss/MadeInAbyss.jpg" alt="Into the Abyss">
+
 
 ## The Abyss is calling
 
@@ -64,9 +61,8 @@ _"What if we removed the need for these programs and wrote a small program that 
 
 Let’s turn something so trivial into a learning opportunity on a Friday night with some beers, music, and random Discord conversations. Before we dive in, I’ve made a small diagram showing how typical applications interact with the system. As an example, let’s try to map how Notepad would create a file.<br>
 
-<p align="center">
-    <img src="../assets/img/Abyss/flow.png" alt="Diagrams Department Approves">
-</p>
+<img src="../assets/img/Abyss/flow.png" alt="Diagrams Department Approves">
+
 
 A good thing to be aware of is that, from this flow, only the Windows API is very well [documented](https://learn.microsoft.com/en-us/windows/win32/api/), so applications can be easily written using stable functions that don’t change and break existing applications.<br>
 
@@ -232,13 +228,9 @@ Now that the first part of our application to execute this technique is finished
 We’ve created the `SuperDuperKey1` registry key, located at `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\`. Inside it, we’ve added two subkeys: `SuperDuperSubKey1` and `SuperDuperSubKey2`. Each of these subkeys contains four values: one (Default) and three custom values.
 <br>
 
-<p align="center">
-    <img src="../assets/img/Abyss/Source_Key1_Reg.png" alt="Into the Abyss">
-</p>
+<img src="../assets/img/Abyss/Source_Key1_Reg.png" alt="Into the Abyss">
 <br>
-<p align="center">
-    <img src="../assets/img/Abyss/Source_Key2_Reg.png" alt="Into the Abyss">
-</p>
+<img src="../assets/img/Abyss/Source_Key2_Reg.png" alt="Into the Abyss">
 <br>
 
 Upon execution of our application, everything under `SuperDuperKey1` should be copied to the destination:
@@ -246,20 +238,15 @@ Upon execution of our application, everything under `SuperDuperKey1` should be c
 
 Let’s give our application a quick test.<br>
 
-<p align="center">
-    <img src="../assets/img/Abyss/abyss_execution.png" alt="Into the Abyss">
-</p>
+<img src="../assets/img/Abyss/abyss_execution.png" alt="Into the Abyss">
 <br>
 
 Time to take a look in the registry and make sure everything’s where it should be. <br><br>
 
-<p align="center">
-    <img src="../assets/img/Abyss/Dest_Key1_Reg.png" alt="Into the Abyss">
-</p>
+
+<img src="../assets/img/Abyss/Dest_Key1_Reg.png" alt="Into the Abyss">
 <br>
-<p align="center">
-    <img src="../assets/img/Abyss/Dest_Key2_Reg.png" alt="Into the Abyss">
-</p>
+<img src="../assets/img/Abyss/Dest_Key2_Reg.png" alt="Into the Abyss">
 <br>
 
 It seems the application executed its task flawlessly — a true "first time right" execution 😇… well, anyway.<br>
