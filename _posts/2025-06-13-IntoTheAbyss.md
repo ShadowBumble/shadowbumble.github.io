@@ -12,7 +12,7 @@ description: The start of my Journey into the World of Offensive Development and
 <br>
 <center>
 "And if you gaze long into an abyss, the abyss also gazes into you."
-<br>Friedrich Nietzsche
+<br>- Friedrich Nietzsche
 </center>
 
 <br>
@@ -43,7 +43,7 @@ The command they issued for this last part was:
 
 The blog didn’t mention it specifically, but the fact that they could install TightVNC, make adjustments in the `HKLM` section of the registry, and leverage `bcdedit.exe` means we can safely assume they already had privileged access to that specific server. However, one of the security controls is likely a form of tampering protection.<br>
 <br>
-The problem with straightforward techniques is that they are a world-famous rabbit hole into which you can tumble. In this case, that rabbit hole was filled by my sheer interest in developing my skillset in offensive development and avoiding detections. Due to my visual thinking, my mind instantly made a connection to one of my favorite novels/anime, [Made in Abyss](https://en.wikipedia.org/wiki/Made_in_Abyss). Ironically the character in Made in Abyss is also called "Reg". Henceforth, I hear something calling in the distance.<br>
+The problem with straightforward techniques is that they are a world-famous rabbit holes into which you can tumble. In this case, that rabbit hole was filled by my sheer interest in developing my skillset in offensive development and avoiding detections. Due to my visual thinking, my mind instantly made a connection to one of my favorite novels/anime, [Made in Abyss](https://en.wikipedia.org/wiki/Made_in_Abyss). Ironically the character in Made in Abyss is also called "Reg". Henceforth, I hear something calling in the distance.<br>
 <br>
 
 <img src="../assets/img/Abyss/MadeInAbyss.jpg" alt="Into the Abyss">
