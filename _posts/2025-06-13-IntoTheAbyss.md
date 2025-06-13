@@ -15,9 +15,8 @@ description: The start of my Journey into the World of Offensive Development and
 <center>
 
 _**"And if you gaze long into an abyss, the abyss also gazes into you."**_
-
+<br>Friedrich Nietzsche
 </center>
-- Friedrich Nietzsche
 
 <br>
 
