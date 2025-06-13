@@ -1,4 +1,4 @@
-name: publish
+name: "Build & Deploy"
 on:
   push:
     branches:
@@ -22,8 +22,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  publish:
-    if: "contains(github.event.head_commit.message, 'Publish Blog')"  
   build:
     runs-on: ubuntu-latest
 
