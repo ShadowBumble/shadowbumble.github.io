@@ -1,9 +1,8 @@
-name: "Build and Deploy"
+name: "Build & Deploy"
 on:
   push:
     branches:
       - main
-      - master
     paths-ignore:
       - .gitignore
       - README.md
@@ -25,7 +24,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: "! contains(github.event.head_commit.message, 'Publish Blog')"
 
     steps:
       - name: Checkout
