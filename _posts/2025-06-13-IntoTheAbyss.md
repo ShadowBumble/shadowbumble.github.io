@@ -1,6 +1,6 @@
 ---
 title: Into The Abyss 
-date: 2025-06-13 12:00:00 +0200
+date: 2025-06-13 12:00:00
 categories: [Research]
 tags: [offdev]     # TAG names should always be lowercase
 
