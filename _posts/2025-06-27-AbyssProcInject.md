@@ -6,9 +6,8 @@ tags: [offdev]     # TAG names should always be lowercase
 
 description: As the journey continues through the various Layers of the Abyss we are now visiting the the first layer "Edge of the Abyss". The second post of my Journey into the World of Offensive Development and Reverse Engineering, this time it's about process injection. 
 ---
-<p align="center">
-    <img src="../assets/img/Abyss/header.png" alt="Into the Abyss">
-</p>
+<img src="../assets/img/Abyss/header.png" alt="Into the Abyss">
+
 
 # Into the Abyss 
 <br>
