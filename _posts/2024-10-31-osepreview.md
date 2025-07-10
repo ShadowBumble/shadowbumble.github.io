@@ -1,6 +1,7 @@
 ---
 title: A 2024 Review of OffSec's PEN-300 Advanced Evasion Techniques and Breaching Defenses
 date: 2024-10-31 17:00:00 +0200
+published: true
 categories: [Ramblings]
 tags: [reviews]     # TAG names should always be lowercase
 

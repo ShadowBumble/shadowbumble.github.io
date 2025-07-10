@@ -1,6 +1,7 @@
 ---
 title: Stories from the Abyss - Early Bird Process Injection
 date: 2025-07-10 12:00:00
+published: true
 categories: [Research]
 tags: [offdev, abyss]     # TAG names should always be lowercase
 
