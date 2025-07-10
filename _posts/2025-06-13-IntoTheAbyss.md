@@ -2,7 +2,7 @@
 title: Into The Abyss 
 date: 2025-06-13 12:00:00
 categories: [Research]
-tags: [offdev]     # TAG names should always be lowercase
+tags: [offdev, abyss]     # TAG names should always be lowercase
 
 description: The start of my Journey into the World of Offensive Development and Reverse Engineering 
 ---

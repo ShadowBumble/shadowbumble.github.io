@@ -2,7 +2,7 @@
 title: Stories from the Abyss - Process Injection
 date: 2025-06-27 12:00:00
 categories: [Research]
-tags: [offdev]     # TAG names should always be lowercase
+tags: [offdev, abyss]     # TAG names should always be lowercase
 
 description: As the journey continues through the various Layers of the Abyss we are now visiting the the first layer "Edge of the Abyss". The second post of my Journey into the World of Offensive Development and Reverse Engineering, this time it's about process injection. 
 ---
@@ -26,7 +26,7 @@ Now that we've already spent countless hours going down the rabbit hole in the p
 
 Since a few friends pointed out that I should include a disclaimer for these types of blogs, here's the mandatory one:
 
-> *** Everything shared on this blog is purely for educational purposes and meant to spark ideas or help you learn. If you decide to try anything mentioned here, you’re doing so at your own risk. Please use your best judgment and do your own research before taking action. *** 
+> _Everything shared on this blog is purely for educational purposes and meant to spark ideas or help you learn. If you decide to try anything mentioned here, you’re doing so at your own risk. Please use your best judgment and do your own research before taking action._
 
 Also, since I’ve received a few questions about the code (including from the previous blog), I’ll be storing all the `C` code for this blog series in my [Github repository](https://github.com/ShadowBumble/TheAbyss).
 
@@ -124,8 +124,6 @@ For the program we are going to levarage some of the [Win32 API](https://learn.m
 `VirtualAllocEx `|Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero.|[Link](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex)
 `WriteProcessMemory`|Writes data to an area of memory in a specified process. The entire area to be written to must be accessible or the operation fails.|[Link](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory)
 `CreateRemoteThreadEx`|Creates a thread that runs in the virtual address space of another process and optionally specifies extended attributes such as processor group affinity.|[Link](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethreadex)
-
-For the program, we are going to leverage some of the [Win32 API](https://learn.microsoft.com/en-us/windows/win32/api) functions:
 
 Important to be aware of is that every function has various attributes it can use and expects; some are optional, but others are mandatory or the function breaks. It's good to familiarize yourself with the options since they are very well documented in the Win32 API documentation.
 
