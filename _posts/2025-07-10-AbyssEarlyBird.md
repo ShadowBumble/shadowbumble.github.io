@@ -109,7 +109,7 @@ Let's start with generating some shellcode to give us a `MessageBox` to add to o
 
 As with our previous blog post, instead of simply copy-pasting the full code, we'll build it step by step. This approach includes debug and output messages, allowing us to follow the process more clearly. Below is the base template (with the shellcode truncated for readability). The full code will be added to the [Abyss Repository](https://github.com/ShadowBumble/TheAbyss) as `AbyssEarlyBird.c`
 
-```C
+{% highlight c %}
 #include <windows.h>
 #include <stdio.h>
 
@@ -136,7 +136,8 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
-```
+{% endhighlight %}
+
 With that prepared, let's start building our proof-of-concept (PoC). This time, I'll approach it a bit differently—constructing the code in blocks that correspond to the visual flow diagram shown above for the EarlyBird injector.
 
 
