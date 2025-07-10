@@ -20,7 +20,7 @@ description: As the journey continues through the various Layers of the Abyss we
 
 ## Introduction
 
-After finishing the blog post about the Process Injection technique in its most simple form, I was thinking about where to go next. There's so much fun stuff to do—so, which topic next?
+After finishing the previous blog post about the Process Injection technique in its most simple form, I was thinking about where to go next. There's so much fun stuff to do—so, which topic next?
 
 I remember when I wrote the [custom loader](https://github.com/ShadowBumble/SimpleLoader/blob/main/SimpleLoader.c) for the [Ninja Hacker Academy writeup](https://www.shadowbumble.nl/posts/NHA/), I combined a few techniques, but I didn’t explicitly explain why or what their benefits are.
 
