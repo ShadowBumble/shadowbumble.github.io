@@ -11,16 +11,13 @@ image:
   path: /assets/headers/abyss_header.png
   alt: Stories of the Abyss
 ---
-<img src="../assets/img/Abyss/header.png" alt="Into the Abyss">
-
 # Into the Abyss 
 <br>
 <center>
+
 "And if you gaze long into an abyss, the abyss also gazes into you."
 <br>- Friedrich Nietzsche
 </center>
-
-<br>
 
 
 ## Introduction

@@ -6,10 +6,6 @@ categories: [Ramblings]
 tags: [reviews]     # TAG names should always be lowercase
 
 description: A review of the current state of OffSec's PEN300 Course and Exam.
-
-image:
-  path: /assets/headers/osep_header.svg
-  alt: OSEP logo
 ---
 
  <img src="../assets/img/osep.logo.svg" alt="OSEP Certification Badge" width="260" height="300" />

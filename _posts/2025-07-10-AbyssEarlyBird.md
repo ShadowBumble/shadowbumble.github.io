@@ -11,8 +11,6 @@ image:
   path: /assets/headers/abyss_header.png
   alt: Stories of the Abyss
 ---
-<img src="../assets/img/Abyss/header.png" alt="Into the Abyss">
-
 # Into the Abyss 
 <br>
 <center>
