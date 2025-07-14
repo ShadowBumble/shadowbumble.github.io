@@ -6,6 +6,10 @@ categories: [Research]
 tags: [offdev, abyss]     # TAG names should always be lowercase
 
 description: As the journey continues through the various Layers of the Abyss we are still wandering around in the first layer "Edge of the Abyss". The third post of my Journey into the World of Offensive Development and Reverse Engineering, this time it's about the process injection Early Bird technique. 
+
+image:
+  path: /assets/headers/abyss_header.png
+  alt: Stories of the Abyss
 ---
 <img src="../assets/img/Abyss/header.png" alt="Into the Abyss">
 

@@ -6,6 +6,10 @@ categories: [Research]
 tags: [offdev, abyss]     # TAG names should always be lowercase
 
 description: The start of my Journey into the World of Offensive Development and Reverse Engineering 
+
+image:
+  path: /assets/headers/abyss_header.png
+  alt: Stories of the Abyss
 ---
 <img src="../assets/img/Abyss/header.png" alt="Into the Abyss">
 
