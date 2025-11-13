@@ -21,7 +21,7 @@ image:
 
 ## Introduction
 
-Every organisation in the world is either having or developing a Cyber Security Capability to protect that organisation. You can outsource by buying managed services, you can do a best of both worlds by combining managed services with inhouse capabilities or you can have everything inhouse. The implementation model can vary however the goal is the same. This blogpost will focus on a inhouse/hybride model, while not being restricted to a specific sector of type of organisation.
+Every organisation in the world is either having or developing a Cyber Security Capability to protect that organisation. You can outsource by buying managed services, you can do a best of both worlds by combining managed services with inhouse capabilities or you can have everything inhouse. The implementation model can vary however the goal is the same. This blogpost will focus on a inhouse/hybride model, while not being restricted to a specific sector or type of organisation.
 
 > This blog started from a challenge question I received: 
 >
