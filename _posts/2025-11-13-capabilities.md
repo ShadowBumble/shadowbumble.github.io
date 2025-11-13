@@ -19,11 +19,11 @@ description: As organisations mature in their Cyber Security capabilities they q
 
 ## Introduction
 
-Every organisation in the world is either having or developing a Cyber Security Capability to protect that organisation. You can outsource by buying managed services, you can do a best of both worlds by combining managed services with inhouse capabilities or you can have everything inhouse. The implementation model can vary however the goal is the same.
+Every organisation in the world is either having or developing a Cyber Security Capability to protect that organisation. You can outsource by buying managed services, you can do a best of both worlds by combining managed services with inhouse capabilities or you can have everything inhouse. The implementation model can vary however the goal is the same. This blogpost will focus on a inhouse/hybride model, while not being restricted to a specific sector of type of organisation.
 
 > This blog started from a challenge question I received: 
 >
->_"What if you had the opportunity to build an Offensive Security capability within a large organization—say, 50,000+ employees? How would you design it, and how would you manage it?"_
+>_"What if you had the opportunity to build an Offensive Security capability within a large organization say, 50,000+ employees? How would you design it, and how would you manage it?"_
 >
 > As a **disclaimer**, this scenario is purely hypothetical. It does not reflect my current employer or the work we do there. This is not a step-by-step guide or a recommendation to implement any specific tool or process. Rather, it is simply my perspective, thoughts and ideas on how I would approach building such a capability in a large organization. Consider it a collection of strategic ramblings from someone passionate about offensive security.
 
