@@ -152,12 +152,12 @@ It’s about fostering curiosity, creativity, and continuous learning and creati
 
 ## Closing thoughts.
 
-The only remaining question of the challenge now is, "How would I manage that?" And the truth is, this is not something with a simple answer. It requires time, thoughtful planning, and a willingness to experiment. Having a structure on paper, making it scalable, and writing it down like this is relatively easy. The real challenge lies in implementing it—writing supporting documents, defining processes, setting clear responsibilities, and ensuring alignment with both team and organizational goals.
+The only remaining question of the challenge now is, "How would I manage that?" And the truth is, this is not something with a simple answer. It requires time, thoughtful planning, and a willingness to experiment. Having a structure on paper, making it scalable, and writing it down like this is relatively easy. The real challenge lies in implementing it, writing supporting documents, defining processes, setting clear responsibilities, and ensuring alignment with both team and organizational goals.
 
-But this is also where the opportunity lies. By thinking strategically about how to organize Operational, Research, and Engineering teams in offensive security, you’re building a framework that allows your people to grow, learn, and take ownership. You’re creating a team that can adapt, scale, and innovate—rather than just follow instructions.
+But this is also where the opportunity lies. By thinking strategically about how to organize Operational, Research, and Engineering teams in offensive security, you’re building a framework that allows your people to grow, learn, and take ownership. You’re creating a team that can adapt, scale, and innovate rather than just following instructions.
 
-Ultimately, building and leading high-performing offensive security teams is less about frameworks on paper and more about empowering people, fostering growth, and creating clear paths for responsibility and innovation. Start small, think strategically, and focus on creating a culture where knowledge flows, ownership is clear, and careers can evolve. Structure is important, but action is what turns ideas into results—so take these concepts, adapt them to your organization, and begin shaping your team for the challenges ahead.
+Ultimately, building and leading high-performing offensive security teams is less about frameworks on paper and more about empowering people, fostering growth, and creating clear paths for responsibility and innovation. Start small, think strategically, and focus on creating a culture where knowledge flows, ownership is clear, and careers can evolve. Structure is important, but action is what turns ideas into results, so take these concepts, adapt them to your organization, and begin shaping your team for the challenges ahead.
 
-That's how I would do it.
+And that's how I would do it.
 
-I hope you enjoyed this blog. It was a bit different from the technical ones I’ve written in the past, but it was fun to approach to crawl a bit back into my previous strategic role while combining it with my current field of expertise.
+I hope you enjoyed this blog. It was a bit different from the technical ones I’ve written in the past, but it was fun to approach or crawl back for a bit into my previous strategic role while combining it with my current field of expertise.
