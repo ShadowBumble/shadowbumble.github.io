@@ -5,9 +5,11 @@ categories: [Architecture]
 tags: [ramblings]     # TAG names should always be lowercase
 
 description: As organisations mature in their Cyber Security capabilities they quickly notice that structure and overlap are just around the corner. In this blogpost I let my mind wander on how larger organisations can implement and develop a Offensive Security Capability as next step in their Cyber Security strategy.
----
-<img src="../assets/img/offseccap/header.png" alt="What if">
 
+image:
+  path: /assets/img/offseccap/header.png
+  alt: What If
+---
 <br>
 <center>
 
