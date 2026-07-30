@@ -332,7 +332,7 @@ The video below shows `nitro_poc_calc.mjs` running against the current unpatched
 
 In the demo the payload is `spawn("calc.exe")`, chosen because calc.exe deserves some airtime also. In a real supply chain scenario the payload would be silent: a credential exfiltration, a reverse shell, or a beacon that writes itself back into source. The mechanism is identical.
 
-<video width="640" height="360" controls loop="" muted="" autoplay="">
+<video width="640" height="360" controls loop="" muted="">
     <source src="https://github.com/ShadowBumble/nitro-template-poc/raw/refs/heads/main/PoC.mp4" />
 </video>
 
@@ -352,7 +352,7 @@ Since the PoC takes a shortcut for demo purposes; it puts the payload directly i
 
 The npm package doesn't build anything itself or needs to contain anything malicious. It just needs to registers a string. Nitro's own build pipeline does the rest when the victim runs `nuxt build` or `nitro build`. So in the next demo, I simulate a compromised NPM package for a second demo, just like a Threat Actor.
 
-<video width="640" height="360" controls loop="" muted="" autoplay="">
+<video width="640" height="360" controls loop="" muted="">
     <source src="https://github.com/ShadowBumble/nitro-template-poc/raw/refs/heads/main/supply.mp4" />
 </video>
 
