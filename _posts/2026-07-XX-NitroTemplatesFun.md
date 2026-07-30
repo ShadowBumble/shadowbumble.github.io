@@ -1,6 +1,6 @@
 ---
 title: When the Build Pipeline Is the Exploit - A Nitro Template Injection Story
-date: 2026-07-30 07:00:00
+date: 2026-07-30
 categories: [cve]
 tags: [research]     # TAG names should always be lowercase
 
