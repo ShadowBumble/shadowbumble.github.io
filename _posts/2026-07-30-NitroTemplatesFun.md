@@ -26,7 +26,7 @@ What if it wasn't contained? What if the compromised package didn't need to do a
 
 That is what this is about.
 
-**Published:** 2026-08-01  
+**Published:** 2026-07-30  
 **Target:** Nitro v3 (UnJS)  
 **Class:** CWE-94 -- Code Injection  
 **CVE:** None  
