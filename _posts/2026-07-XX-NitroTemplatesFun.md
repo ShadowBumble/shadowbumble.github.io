@@ -371,7 +371,7 @@ The npm package doesn't build anything itself or needs to contain anything malic
 | 2026-06-09 | Asked again for a response and reevaluation or permission to publish |
 | 2026-06-10 | Response: "*you should not publicly disclose details of the report or publish a blog post about the vulnerability at this time*", which is not a problem since at this moment the Report is closed as "Informative" and not recognized as Vulnerability, interesting is that they took the time to warn about disclosure but not the check out the submission |
 | 2026-06-28 | Sent reminders, the request for reevaluation is still open, Updated the support ticket which is also still open. | 
-| 2026-08-01 | Public Disclosure.
+| 2026-07-30 | Public Disclosure.
 
 ## References
 
